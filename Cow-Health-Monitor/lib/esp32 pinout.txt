@@ -1,0 +1,22 @@
+left wifi  right 
+
+
+3v3	    gnd
+en	    23
+svp	    22
+svm	    tx
+34	    rx
+35	    21 
+32  	    gnd
+33 	    19 
+25 	    18
+26	    5
+27	    17
+14          16
+12	    4
+gnd         0
+13 	    2
+sd2 	    15
+sd3         sdi
+cnd         sdd
+5v          clk

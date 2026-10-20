@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "XDCR_C0720B001F")(type "KiCad")(uri "${KIPRJMOD}/lib/XDCR_C0720B001F.pretty")(options "")(descr ""))
+  (lib (name "GY-521")(type "KiCad")(uri "${KIPRJMOD}/GY-521.pretty")(options "")(descr ""))
+  (lib (name "GY-87")(type "KiCad")(uri "${KIPRJMOD}/lib/GY-87/GY-87.pretty")(options "")(descr ""))
+)

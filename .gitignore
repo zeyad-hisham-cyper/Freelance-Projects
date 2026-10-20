@@ -1,0 +1,116 @@
+# =====================================================================
+#  Freelance Projects - root .gitignore
+#  Covers: KiCad, PlatformIO / Arduino, Flutter / Dart, Office, OS junk
+# =====================================================================
+
+# ---------- OS / editor junk ----------
+Thumbs.db
+ehthumbs.db
+desktop.ini
+.DS_Store
+*.swp
+*~
+.idea/
+*.iml
+.vscode/*
+!.vscode/extensions.json
+
+# ---------- AI assistant / local tool settings ----------
+.claude/
+
+# ---------- Office temp / lock files ----------
+~$*
+*.tmp
+
+# ---------- KiCad ----------
+# automatic backups & caches
+*-backups/
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-bak
+_autosave-*
+fp-info-cache
+*-cache.lib
+*.kicad_prl
+# lock files left by an open editor
+*.lck
+~*.lck
+# interactive BOM / plugin output
+\#auto_saved_files\#
+
+# ---------- PlatformIO / Arduino ----------
+.pio/
+.pioenvs/
+.piolibdeps/
+.vscode/.browse.c_cpp.db*
+.vscode/c_cpp_properties.json
+.vscode/launch.json
+.vscode/ipch
+*.elf
+*.hex
+*.o
+*.d
+
+# ---------- Flutter / Dart ----------
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+**/build/
+**/doc/api/
+# Android
+**/android/local.properties
+**/android/.gradle/
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/**/GeneratedPluginRegistrant.java
+**/android/key.properties
+*.jks
+*.keystore
+# iOS / macOS
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/macos/Flutter/ephemeral/
+**/macos/Pods/
+# Linux / Windows desktop
+**/linux/flutter/ephemeral/
+**/windows/flutter/ephemeral/
+
+# ---------- Secrets (never commit) ----------
+.env
+*.env
+**/google-services.json
+**/GoogleService-Info.plist
+secrets.h
+credentials.h
+
+# =====================================================================
+#  Project-specific exclusions (duplicates, generated or local files)
+# =====================================================================
+
+# Zip snapshots that duplicate folders already in the repo
+TelecomVillage-SIM-Adapter-Badge/files.zip
+Smart-Posture-Corrector/PCB/PCB.zip
+Digital-Weighing-Scale/ScaleMVP/ScaleMVP.zip
+Digital-Weighing-Scale/Load cell frame - 4602226.zip
+
+# Printer-specific slicer output (regenerate from the STL files)
+*.gcode
+
+# Vendor CAD sources not used by KiCad (only the .step/.stp models are referenced)
+Cow-Health-Monitor/lib/**/*.SLDPRT
+Cow-Health-Monitor/lib/**/*.SLDASM
+Cow-Health-Monitor/lib/**/parasolid/
+Cow-Health-Monitor/lib/**/AD/
+Cow-Health-Monitor/lib/**/*.zip
+
+# SnapEDA import helper pages
+how-to-import.htm

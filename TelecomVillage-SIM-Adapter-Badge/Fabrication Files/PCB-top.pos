@@ -1,0 +1,17 @@
+### Footprint positions - created on 2025-05-31T22:40:34+0300 ###
+### Printed by KiCad version 8.0.6
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val               Package                PosX       PosY       Rot  Side
+J1        NSIM-2-C          NSIM2C             261.4500   -48.6900   90.0000  top
+J2        SIM7050-6-0-00-A  SIM70506000A       261.9500   -64.6900   90.0000  top
+J3        MSIM-10-B         MSIM10B            260.4420   -82.6400   90.0000  top
+J4        Conn_01x01        PAD                173.9000   -60.1500    0.0000  top
+J5        Conn_01x01        PAD                173.9000   -62.6500    0.0000  top
+J6        Conn_01x01        PAD                173.9000   -65.1500    0.0000  top
+J7        Conn_01x01        PAD                182.8000   -60.1500    0.0000  top
+J8        Conn_01x01        PAD                182.8000   -62.6500    0.0000  top
+J9        Conn_01x01        PAD                182.8000   -65.1500    0.0000  top
+J10       Conn_01x01        PAD                173.9000   -67.6500    0.0000  top
+J11       Conn_01x01        PAD                182.8000   -67.6500    0.0000  top
+## End
